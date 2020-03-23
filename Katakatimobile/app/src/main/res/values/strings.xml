@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Katakatimobile</string>
+    <string name="centreelement">centreelement</string>
+    <string name="todo">log0</string>
+    <string name="blackx">blackx</string>
+    <string name="whitex">whitex</string>
+    <string name="ssdgaming">ssdgaming</string>
+    <string name="ssd_gaming_studio_s">SSD GAMING STUDIO\'S</string>
+    <string name="loading">Loading Please Wait...</string>
+    <string name="logo0">logo0</string>
+    <string name="tictakscreen">tictakscreen</string>
+    <string name="logotictaktoe">logotictaktoe</string>
+    <string name="rectangle2">rectangle2</string>
+    <string name="rectanglewhite">rectanglewhite</string>
+    <string name="Firstname">First Player Name</string>
+    <string name="Secondname">Second Player Name</string>
+    <string name="playbutton">Play</string>
+    <string name="tictaktemp">template</string>
+    <string name="playerturn">X Turn -Play</string>
+    <string name="x1">x1</string>
+    <string name="x2">x2</string>
+    <string name="x3">x3</string>
+    <string name="x4">x4</string>
+    <string name="x5">x5</string>
+    <string name="x6">x6</string>
+    <string name="x7">x7</string>
+    <string name="x8">x8</string>
+    <string name="x9">x9</string>
+    <string name="first_player_name">First Player Name</string>
+    <string name="second_player_name">Second Player Name</string>
+
+
+</resources>

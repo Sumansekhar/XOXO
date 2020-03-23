@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E686E"
+
+    tools:context=".secondactivity">
+
+    <ImageView
+        android:id="@+id/tictakscreen"
+        android:layout_width="363dp"
+        android:layout_height="229dp"
+        android:contentDescription="@string/tictakscreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376"
+        app:srcCompat="@drawable/tictak" />
+
+    <ImageView
+        android:id="@+id/logotictaktoe"
+        android:layout_width="116dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/logotictaktoe"
+        app:layout_constraintBottom_toTopOf="@+id/tictakscreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/group1" />
+
+    <ImageView
+        android:id="@+id/rectangle2"
+        android:layout_width="287dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="191dp"
+        android:contentDescription="@string/rectangle2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle2" />
+
+    <ImageView
+        android:id="@+id/rectangle3"
+        android:layout_width="290dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="122dp"
+        android:contentDescription="@string/rectangle2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="84dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/roundedcorner"
+        android:onClick="playstarter"
+        android:tag="playbutton"
+        android:text="@string/playbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Firstplayernaam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="223dp"
+        android:autofillHints=""
+        android:background="#26494B"
+
+         android:textSize="18dp"
+        android:ems="10"
+        android:hint="@string/first_player_name"
+        android:inputType="textPersonName"
+        android:textColor="#2D2F31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Secondplayernaam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="157dp"
+        android:autofillHints=""
+        android:background="#26494B"
+        android:textSize="18dp"
+        android:ems="10"
+        android:hint="@string/second_player_name"
+        android:inputType="textPersonName"
+        android:textColor="#1D2A2C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

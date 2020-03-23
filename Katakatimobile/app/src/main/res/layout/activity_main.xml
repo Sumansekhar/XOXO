@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE2EC"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/blackx"
+        android:layout_width="69dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="409dp"
+        android:contentDescription="@string/blackx"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/path2" />
+
+    <ImageView
+        android:id="@+id/whitex"
+        android:layout_width="69dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="256dp"
+        android:contentDescription="@string/whitex"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/path1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="533dp"
+        android:contentDescription="@string/ssdgaming"
+        android:text="@string/ssd_gaming_studio_s"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="68dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="533dp"
+        android:contentDescription="@string/logo0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pngguru" />
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/loading"
+        android:text="@string/loading"
+        android:textColor="#3C3F41"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whitex" />
+
+    <ImageView
+        android:id="@+id/centreelement"
+        android:layout_width="211dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="229dp"
+        android:contentDescription="@string/centreelement"
+        app:layout_constraintBottom_toTopOf="@+id/loading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/am1xo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
