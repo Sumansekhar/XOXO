@@ -7,7 +7,7 @@ A Tic-tac-toe game made for android devices, which let two players enjoy the fam
    
 # Game Play
 
-https://user-images.githubusercontent.com/62389305/112324472-d76cfa00-8cd8-11eb-955e-936ac7e922df.mp4
+https://user-images.githubusercontent.com/62389305/112324472-d76cfa00-8cd8-11eb-955e-936ac7e922df.mp4 </br>
 
 
 
