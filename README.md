@@ -1,5 +1,5 @@
 
-# Katakatimobile
+# Katakatimobile XOXO
 A Tic-tac-toe game made for android devices, which let two players enjoy the famous Tic-tac-toe game on an android device.
 
 # Game Screens
